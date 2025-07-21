@@ -22,13 +22,13 @@ const socialItems = [
   {
     name: "LinkedIn",
     icon: <Linkedin className="w-5 h-5 text-blue-600" />,
-    href: "https://linkedin.com/in/hidayatnurhakim",
+    href: "www.linkedin.com/in/hidayat-nur-hakim",
     color: "hover:bg-blue-50",
   },
   {
     name: "GitHub",
     icon: <Github className="w-5 h-5 text-gray-800" />,
-    href: "https://github.com/hidayatnurhakim",
+    href: "https://github.com/Hidayattt24",
     color: "hover:bg-gray-50",
   },
   {

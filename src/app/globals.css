@@ -25,3 +25,34 @@ body {
   color: var(--foreground);
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
+
+/* Smooth Cursor Styles - Only on desktop */
+@media (pointer: fine) and (hover: hover) {
+  body {
+    cursor: none !important;
+  }
+
+  * {
+    cursor: none !important;
+  }
+}
+
+/* Keep normal cursor on mobile/touch devices */
+@media (pointer: coarse) {
+  body {
+    cursor: auto !important;
+  }
+
+  * {
+    cursor: auto !important;
+  }
+}
+
+/* Smooth cursor animations */
+.smooth-cursor-dot {
+  transition: transform 0.1s ease-out;
+}
+
+.smooth-cursor-follower {
+  transition: transform 0.15s ease-out;
+}
